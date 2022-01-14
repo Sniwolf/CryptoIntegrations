@@ -2,8 +2,7 @@
 
 Crypto Integrations is a small integration program used to gather information
 about various cryptocurrencies from sources such as Binance and Coinbase. The
-user enters a valid country code as defined in ISO-4217 
-(https://developers.google.com/adsense/management/appendix/currencies), such
+user enters a valid country code as defined in [ISO-4217](https://developers.google.com/adsense/management/appendix/currencies), such
 as USD for US Dollar. CryptoIntegrations then uses Coinbase's API to get the
 current exchange rate for 1 of the entered currency with all the 
 cryptocurrencies that currently available in the Coinbase market. It then
@@ -49,3 +48,14 @@ Please enter the currency code you would like view:
 
 Here you can enter the currency code that you would like to get cryptocurrency
 information against. 
+
+If you prefer to run this from Intellij you can run the program by
+navigating to the Main.kt file under src->main->kotlin. From there 
+you can run the program by either selecting the green run arrow or
+right-clicking on the class and selecting "Run 'Main.kt'". The 
+program should go through the build process and then ask you to 
+enter the currency code you would like view information for.
+
+## Authors
+
+* **Eric Turnbull** - [Sniwolf](https://github.com/Sniwolf)
